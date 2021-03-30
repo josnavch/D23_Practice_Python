@@ -3,7 +3,8 @@ import random
 # your code here
 
 def generate_random():
-    number = random.randint(0, 9)
+    number = random.randrange(0, 10)
+    print(number)
     return  number
 
 
